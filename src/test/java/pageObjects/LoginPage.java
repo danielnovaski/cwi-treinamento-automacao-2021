@@ -23,6 +23,12 @@ public class LoginPage extends LoginPageElementMapper {
     public void clickBtnSubmitLogin(){
       SubmitLogin.click();
     }
+    public void preencherEmailCadastro(){
+        cadastroEmail.sendKeys("guto3@gmail.com");
+    }
+    public void clickBtnSubmitCadastro(){
+        cadastroBotao.click();
+    }
 
 
 }
